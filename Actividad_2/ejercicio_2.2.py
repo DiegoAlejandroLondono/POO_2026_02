@@ -22,7 +22,9 @@ class Planeta():
         diametro: int = 0,
         distancia: int = 0,
         tipo: TipoPlaneta = TipoPlaneta.TERRESTRE,
-        observable: bool = False
+        observable: bool = False,
+        orbita: float = 0,
+        rotacion: float = 0 
     ):
         self.nombre = nombre
         self.satelites = satelites
@@ -32,6 +34,8 @@ class Planeta():
         self.distancia = distancia
         self.tipo = tipo
         self.observable = observable
+        self.orbita = orbita
+        self.rotacion = rotacion
 
     def show(self) -> None:    #Hint de salida
         print(f"Nombre: {self.nombre}")
@@ -43,6 +47,8 @@ class Planeta():
         #Se utiliza tipo.name para mostrar el nombre el enumerado. Si se quisiese mostrar el valor, se usaria tipo.value.
         print(f"Tipo de planeta: {self.tipo.name}")
         print(f"Observable: {self.observable}")
+        print(f"Periodo orbital: {self.orbita} años")
+        print(f"Periodo de rotacion: {self.rotacion} dias")
 
     def density(self) -> float:
         return self.masa/self.volumen
@@ -56,8 +62,8 @@ class Planeta():
 
 def Main():
 
-    Tierra = Planeta("Tierra", 1, 5.972*10**24, 1.08321*10**12, 12742, 150, TipoPlaneta.TERRESTRE, True)
-    Jupiter = Planeta("Jupiter", 79, 1.898*10**27, 1.43128*10**15, 139820, 779, TipoPlaneta.GASEOSO, True)
+    Tierra = Planeta("Tierra", 1, 5.972*10**24, 1.08321*10**12, 12742, 150, TipoPlaneta.TERRESTRE, True, 1, 1)
+    Jupiter = Planeta("Jupiter", 79, 1.898*10**27, 1.43128*10**15, 139820, 779, TipoPlaneta.GASEOSO, True, 11.86, 0.42)
 
     Tierra.show()
     print(f"La densida de {Tierra.nombre} es {Tierra.density()} kg/km^3")
