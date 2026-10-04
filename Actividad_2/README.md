@@ -30,7 +30,7 @@ Las soluciones se desarrollan utilizando conceptos como:
 La carpeta contiene la solución de los siguientes ejercicios:
 
 1. **Ejercicio 2.1**
-   - 
+   - Creación de la clase persona. Con atributos nombre, apellido, numero de identidad y año de nacimiento, y metodo que enseñe estos atributos. En el main crear 2 objetos de la clase persona y mostrar sus atributos.
 
 2. **Ejercicio 2.2**
    - 
