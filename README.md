@@ -1,4 +1,4 @@
-# POO_2026_02_Actividad_01
+# POO_2026_02
 
 Repositorio correspondiente a la **Actividad 1** del curso de **Programación Orientada a Objetos 2026-2S** de la **Universidad Nacional de Colombia**.
 
@@ -25,9 +25,9 @@ POO_2026_02
 |   ├── ejercicio_17.py
 |   └── README.md
 └── Actividad_2
-    ├── ejercicio_04.py
-    ├── ejercicio_05.py
-    ├── ejercicio_12.py
-    ├── ejercicio_14.py
-    ├── ejercicio_17.py
+    ├── ejercicio_2.1.py
+    ├── ejercicio_2.2.py
+    ├── ejercicio_2.3.py
+    ├── ejercicio_2.4.py
+    ├── ejercicio_2.5.py
     └── README.md
