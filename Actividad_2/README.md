@@ -1,4 +1,4 @@
-# POO_2026_02
+# POO_2026_02_Actividad_01
 
 Carpeta correspondiente a la **Actividad 2** del curso de **Programación Orientada a Objetos 2026-2S** de la **Universidad Nacional de Colombia**.
 
