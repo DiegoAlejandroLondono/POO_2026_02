@@ -39,7 +39,7 @@ La carpeta contiene la solución de los siguientes ejercicios:
    - Creación de la clase Automovil, con atributos marca, modelo, motor, tipo de transmisión, tipo de combustible, tipo de automóvil, número de puertas, cantidad de asientos, velocidad máxima, color, velocidad actual y multas. Implementar métodos get y set para consultar y modificar sus atributos, además de métodos para acelerar, desacelerar, frenar, calcular el tiempo estimado de llegada y mostrar la información del vehículo. Al intentar superar la velocidad máxima, limitar la velocidad y generar multas acumulativas. Incluir métodos para determinar si el automóvil tiene multas y consultar su valor total. En el main, crear un automóvil y realizar diferentes cambios de velocidad para comprobar el funcionamiento de los métodos.
 
 4. **Ejercicio 2.4**
-   - 
+   - Creación de las clases Circulo, Rectangulo, Cuadrado, Triangulo, Rombo y Trapecio. Cada clase debe contener los atributos necesarios para representar la figura y métodos para calcular su área y perímetro. Para el triángulo rectángulo, además, implementar métodos para calcular la hipotenusa y determinar si es equilátero, isósceles o escaleno. En el main, crear objetos de cada una de las figuras y mostrar los resultados de sus respectivos métodos.
 
 5. **Ejercicio 2.5**
    - 
