@@ -30,13 +30,13 @@ Las soluciones se desarrollan utilizando conceptos como:
 La carpeta contiene la solución de los siguientes ejercicios:
 
 1. **Ejercicio 2.1**
-   - Creación de la clase persona. Con atributos nombre, apellido, numero de identidad y año de nacimiento, y metodo que enseñe estos atributos. En el main crear 2 objetos de la clase persona y mostrar sus atributos.
+   - Creación de la clase Persona, con atributos nombre, apellido, número de identidad, año de nacimiento, país de nacimiento y género. Implementar un constructor que inicialice todos los atributos y un método para mostrarlos en pantalla. En el main, crear 2 objetos de la clase Persona y mostrar sus datos.
 
 2. **Ejercicio 2.2**
-   - 
+   - Creación de la clase Planeta, con atributos nombre, cantidad de satélites, masa, volumen, diámetro, distancia al Sol, tipo de planeta, si es observable, periodo orbital y periodo de rotación. Implementar un constructor que inicialice los atributos y métodos para mostrarlos, calcular la densidad y determinar si el planeta es exterior. En el main, crear 2 objetos de la clase Planeta y mostrar sus datos, densidad y si son planetas exteriores.
 
 3. **Ejercicio 2.3**
-   - 
+   - Creación de la clase Automovil, con atributos marca, modelo, motor, tipo de transmisión, tipo de combustible, tipo de automóvil, número de puertas, cantidad de asientos, velocidad máxima, color, velocidad actual y multas. Implementar métodos get y set para consultar y modificar sus atributos, además de métodos para acelerar, desacelerar, frenar, calcular el tiempo estimado de llegada y mostrar la información del vehículo. Al intentar superar la velocidad máxima, limitar la velocidad y generar multas acumulativas. Incluir métodos para determinar si el automóvil tiene multas y consultar su valor total. En el main, crear un automóvil y realizar diferentes cambios de velocidad para comprobar el funcionamiento de los métodos.
 
 4. **Ejercicio 2.4**
    - 
