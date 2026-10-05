@@ -1,4 +1,4 @@
-# POO_2026_02_Actividad_01
+# POO_2026_02_Actividad_02
 
 Carpeta correspondiente a la **Actividad 2** del curso de **Programación Orientada a Objetos 2026-2S** de la **Universidad Nacional de Colombia**.
 
@@ -6,7 +6,7 @@ Carpeta correspondiente a la **Actividad 2** del curso de **Programación Orient
 
 - **Universidad:** Universidad Nacional de Colombia
 - **Asignatura:** Programación Orientada a Objetos
-- **Actividad:** Actividad 1
+- **Actividad:** Actividad 2
 - **Lenguaje:** Python
 - **Estudiante:** Diego Alejandro Londoño Zapata
 - **Docente:** Walter Hugo Arboleda Mazo
@@ -42,15 +42,16 @@ La carpeta contiene la solución de los siguientes ejercicios:
    - Creación de las clases Circulo, Rectangulo, Cuadrado, Triangulo, Rombo y Trapecio. Cada clase debe contener los atributos necesarios para representar la figura y métodos para calcular su área y perímetro. Para el triángulo rectángulo, además, implementar métodos para calcular la hipotenusa y determinar si es equilátero, isósceles o escaleno. En el main, crear objetos de cada una de las figuras y mostrar los resultados de sus respectivos métodos.
 
 5. **Ejercicio 2.5**
-   - 
+   - Creación de la clase CuentaBancaria, con atributos nombres y apellidos del titular, número de cuenta, tipo de cuenta, saldo e interés mensual. Implementar métodos para mostrar los datos de la cuenta, consultar el saldo, consignar dinero, retirar dinero verificando que no se exceda el saldo disponible y aplicar el interés mensual al saldo. En el main, crear una cuenta bancaria, mostrar sus datos y realizar operaciones de consignación, retiro y aplicación de interés.
 
 ## Estructura de la carpeta
 
 ```text
-Actividad_1/
-├── ejercicio_04.py
-├── ejercicio_05.py
-├── ejercicio_12.py
-├── ejercicio_14.py
-├── ejercicio_17.py
+Actividad_2/
+├── ejercicio_2.1.py
+├── ejercicio_2.2.py
+├── ejercicio_2.3.py
+├── ejercicio_2.4.py
+├── ejercicio_2.5.py
 └── README.md
+```

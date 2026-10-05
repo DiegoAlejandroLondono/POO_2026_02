@@ -30,3 +30,4 @@ POO_2026_02
     ├── ejercicio_2.4.py
     ├── ejercicio_2.5.py
     └── README.md
+```

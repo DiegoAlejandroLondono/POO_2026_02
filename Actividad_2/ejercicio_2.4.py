@@ -4,11 +4,11 @@ import numpy as np
 
 class TipoTriangulo(Enum):
     EQUILATERO = 1
-    ISOSELES = 2
+    ISOSCELES = 2
     ESCALENO = 3
 
 class Rectangulo():
-    def __init__(self, base, altura):
+    def __init__(self, base: float, altura: float):
         self.base = base
         self.altura = altura
 
@@ -19,7 +19,7 @@ class Rectangulo():
         return 2*self.base + 2*self.altura
 
 class Cuadrado():
-    def __init__(self, lado):
+    def __init__(self, lado: float):
         self.lado = lado
 
     def area(self) -> float:
@@ -29,7 +29,7 @@ class Cuadrado():
         return 4*self.lado
 
 class Rombo():
-    def __init__(self, diagonal1, diagonal2):
+    def __init__(self, diagonal1: float, diagonal2: float):
         self.diagonal1 = diagonal1
         self.diagonal2 = diagonal2
 
@@ -40,9 +40,9 @@ class Rombo():
     def perimetro(self) -> float:
         return 2*(self.diagonal1**2 + self.diagonal2**2)**0.5
 
-#Ya que no se especifica. Se toma el caso en el que el trapecio es isoseles
+#Ya que no se especifica. Se toma el caso en el que el trapecio es isosCeles
 class Trapecio():
-    def __init__(self, base1, base2, altura):
+    def __init__(self, base1: float, base2: float, altura: float):
         self.base1 = base1
         self.base2 = base2
         self.altura = altura
@@ -54,7 +54,7 @@ class Trapecio():
     def perimetro(self) -> float:
         return (self.base1 + self.base2)+2*(((self.base1-self.base2)/2)**2 + self.altura**2)**0.5
 
-class Triangulo():
+class Triangulo_rectangulo():
     def __init__(self, base, altura):
         self.base = base
         self.altura = altura
@@ -90,7 +90,7 @@ def Main():
     circ = Circulo(2)
     rect = Rectangulo(1,2)
     cuad = Cuadrado(3)
-    tria = Triangulo(3,5)
+    tria = Triangulo_rectangulo(3,5)
     romb = Rombo(3,4)
     trap = Trapecio(4,3,2)
 

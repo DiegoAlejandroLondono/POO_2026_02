@@ -66,7 +66,7 @@ def Main():
     Jupiter = Planeta("Jupiter", 79, 1.898*10**27, 1.43128*10**15, 139820, 779, TipoPlaneta.GASEOSO, True, 11.86, 0.42)
 
     Tierra.show()
-    print(f"La densida de {Tierra.nombre} es {Tierra.density()} kg/km^3")
+    print(f"La densidad de {Tierra.nombre} es {Tierra.density()} kg/km^3")
     if Tierra.exterior():
         print(f"{Tierra.nombre} es un planeta exterior")
     else:
@@ -75,7 +75,7 @@ def Main():
     print()
 
     Jupiter.show()
-    print(f"La densida de {Jupiter.nombre} es {Jupiter.density()} kg/km^3")
+    print(f"La densidad de {Jupiter.nombre} es {Jupiter.density()} kg/km^3")
     if Jupiter.exterior():
         print(f"{Jupiter.nombre} es un planeta exterior")
     else:
