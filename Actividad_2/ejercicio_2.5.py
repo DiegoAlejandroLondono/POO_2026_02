@@ -34,7 +34,7 @@ class Cuenta_bancaria():
             print("El monto a consignar debe ser mayor a $0")
             return False
 
-    def retirar (self, monto) -> bool:
+    def retirar(self, monto) -> bool:
 
         if (monto>0 and monto <= self.saldo):
             self.saldo -= monto
@@ -49,11 +49,11 @@ class Cuenta_bancaria():
         print(f"Se ha aplicado un interés mensual del {self.interes_mensual*100}%. El nuevo saldo es {self.saldo}.")
 
 def Main():
-    cuenta = Cuenta_bancaria("Pedro","Pérez",123456789,TipoCuenta.AHORROS, 1.25);
+    cuenta = Cuenta_bancaria("Pedro","Pérez",123456789,TipoCuenta.AHORROS, 1.25)
     cuenta.show()
-    cuenta.consignar(200000);
-    cuenta.consignar(300000);
-    cuenta.retirar(400000);
+    cuenta.consignar(200000)
+    cuenta.consignar(300000)
+    cuenta.retirar(400000)
     cuenta.aplicar_interes_mensual()
 
 
