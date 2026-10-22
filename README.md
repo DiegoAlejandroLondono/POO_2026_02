@@ -24,10 +24,19 @@ POO_2026_02
 |   ├── ejercicio_17.py
 |   └── README.md
 └── Actividad_2
-    ├── ejercicio_2.1.py
-    ├── ejercicio_2.2.py
-    ├── ejercicio_2.3.py
-    ├── ejercicio_2.4.py
-    ├── ejercicio_2.5.py
+|   ├── ejercicio_2.1.py
+|   ├── ejercicio_2.2.py
+|   ├── ejercicio_2.3.py
+|   ├── ejercicio_2.4.py
+|   ├── ejercicio_2.5.py
+|   └── README.md
+└── Actividad_3/
+    ├── ejercicio_8.2.py
+    ├── ejercicio_8.3.py
+    ├── Cilindro.png
+    ├── Cubo.png
+    ├── Esfera.png
+    ├── Piramide.png
+    ├── Prisma.png
     └── README.md
 ```
